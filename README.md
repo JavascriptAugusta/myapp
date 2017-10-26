@@ -75,7 +75,7 @@ http://products2.herokuapp.com
 - The problem: AngularJS is making a POST request with a serialized JSON object, and my API is expecting requests with FORM data
 - Changed how AngularJS was sending data to make the app work
 
-References:
+<b>References:</b>
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
