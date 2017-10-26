@@ -26,6 +26,7 @@ From <a href="http://www.nodejs.org">nodejs.org</a>:
 - Routing means determining how an application responds to a client request to an endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, etc.)
 
 <b>HTTP request/response</b>
+
 Before you start, I'd highly recommend reviewing HTTP requests and responses:
 
 https://www.tutorialspoint.com/http/http_requests.htm
