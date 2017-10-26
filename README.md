@@ -62,8 +62,7 @@ http://products2.herokuapp.com
 - Finally diagnosed that this was a problem with CORS:
 
 - From <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">Mozilla</a>: “Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP headers to let a user agent gain permission to access selected resources from a server on a different origin (domain) than the site currently in use. A user agent makes a cross-origin HTTP request when it requests a resource from a different domain, protocol, or port than the one from which the current document originated.”
-
-“For security reasons, browsers restrict cross-origin HTTP requests initiated from within scripts. For example, XMLHttpRequestand the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request HTTP resources from the same domain the application was loaded from unless CORS headers are used.”
+- “For security reasons, browsers restrict cross-origin HTTP requests initiated from within scripts. For example, XMLHttpRequestand the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request HTTP resources from the same domain the application was loaded from unless CORS headers are used.”
 
 - I added some code to my routes function that enables CORS on my API and republished it on Heroku
 - Now a query to get all the items in the collection works
