@@ -59,7 +59,7 @@ http://products2.herokuapp.com
 
 <b>Speed bump 2: What's CORS?</b>
 - Updated app to use the new API but nothing loads
-- Finally diagnosed that this was a problem with CORS:
+- Diagnosed that this was a problem with CORS:
 
 - From <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">Mozilla</a>: “Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP headers to let a user agent gain permission to access selected resources from a server on a different origin (domain) than the site currently in use. A user agent makes a cross-origin HTTP request when it requests a resource from a different domain, protocol, or port than the one from which the current document originated.”
 - “For security reasons, browsers restrict cross-origin HTTP requests initiated from within scripts. For example, XMLHttpRequestand the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request HTTP resources from the same domain the application was loaded from unless CORS headers are used.”
@@ -72,7 +72,7 @@ http://products2.herokuapp.com
 - Updating does not work
 - $save method on AngularJS $resource does not work 
 - Created new product form that does not use $save method but still does not work
-- Finally figured out the problem: AngularJS is making a POST request with a serialized JSON object, and my API is expecting requests with FORM data
+- The problem: AngularJS is making a POST request with a serialized JSON object, and my API is expecting requests with FORM data
 - Changed how AngularJS was sending data to make the app work
 
 References:
