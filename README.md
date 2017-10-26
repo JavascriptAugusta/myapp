@@ -76,7 +76,11 @@ http://products2.herokuapp.com
 - Changed how AngularJS was sending data to make the app work
 
 References:
+
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+
 https://nodejs.org/en/about/
+
 https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/
+
 https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
